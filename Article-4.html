@@ -82,30 +82,78 @@
             border-left: 4px solid #1a73e8;
             color: #333;
         }
+
+
+        .link-list {
+            margin-top: 30px;
+        }
+
+        .link-card {
+            display: block;
+            padding: 18px 22px;
+            margin-bottom: 18px;
+            background: #f8f9fb;
+            border-radius: 6px;
+            text-decoration: none;
+            color: #002147;
+            transition: all 0.2s ease;
+            border: 1px solid #e5e7eb;
+        }
+
+        .link-card:hover {
+            background: #eef3f9;
+            transform: translateY(-2px);
+            box-shadow: 0 6px 16px rgba(0, 0, 0, 0.08);
+        }
+
+        .link-card span {
+            display: block;
+            font-size: 0.85rem;
+            color: #666;
+            margin-top: 4px;
+        }
     </style>
 </head>
 
 <body>
 
     <div class="container">
-
+    
         <header>
             <h1>Japan Geoscience Union Meeting 2025</h1>
             <div class="meta">
                 Posted on 2024-12-17 · Gauss Te-Chuan Chang
             </div>
         </header>
+    
+        <div class="link-list">
+    
+            <a class="link-card" href="S-SS05.html">
+                S-SS05 Session Outline
+                <span>Solid Earth Sciences · Fault Mechanics & Crustal Deformation</span>
+            </a>
+    
+            <a class="link-card" href="S-SS10.html">
+                S-SS10 Session Outline
+                <span>Seismology & Earthquake Source Processes</span>
+            </a>
 
-        <p>
-            <a class="back" href="S-SS05.html">S-SS05 Section Outline</a>
-        </p>
+            <a class="link-card"
+                href="Earthquake-Stress-Drop-Estimation-in-Laboratory-Experiment-with-Machine-Learning.html">
+                Earthquake Stress-Drop Estimation in Laboratory Experiment with Machine Learning
+                <span>Poster Presentation · Laboratory Earthquake Physics</span>
+            </a>
 
-        <p>
-            <a class="back" href="S-SS10.html">S-SS10 Section Outline</a>
-        </p>
-
+            <a class="link-card" 
+                href="Orchestrating-Structural-Safety-with-QSIS-Vision-for-Extensible-Building-Arrays.html">
+                Orchestrating Structural Safety with QSIS: Vision for Extensible Building Arrays
+                <span>Poster Presentation · Structural Health Monitoring</span>
+            </a>
+    
+        </div>
+    
         <a class="back" href="Articles.html">← Back to Articles</a>
-
+    
     </div>
 
 </body>

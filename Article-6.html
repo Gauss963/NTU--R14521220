@@ -82,26 +82,68 @@
             border-left: 4px solid #1a73e8;
             color: #333;
         }
+
+        .link-list {
+            margin-top: 30px;
+        }
+
+        .link-card {
+            display: block;
+            padding: 18px 22px;
+            margin-bottom: 18px;
+            background: #f8f9fb;
+            border-radius: 6px;
+            text-decoration: none;
+            color: #002147;
+            transition: all 0.2s ease;
+            border: 1px solid #e5e7eb;
+        }
+
+        .link-card:hover {
+            background: #eef3f9;
+            transform: translateY(-2px);
+            box-shadow: 0 6px 16px rgba(0, 0, 0, 0.08);
+        }
+
+        .link-card span {
+            display: block;
+            font-size: 0.85rem;
+            color: #666;
+            margin-top: 4px;
+        }
     </style>
 </head>
 
 <body>
 
     <div class="container">
-
+    
         <header>
             <h1>Japan Geoscience Union Meeting 2026</h1>
             <div class="meta">
-                Posted on 2026-2-9 · Gauss Te-Chuan Chang
+                Posted on 2026-02-09 · Gauss Te-Chuan Chang
             </div>
         </header>
-
-        <p>
-            <a class="back" href="2026-S-CG56.html">S-CG56 Section Outline</a>
-        </p>
-
+    
+        <div class="link-list">
+    
+            <a class="link-card" href="2026-S-CG56.html">
+                S-CG56 Session Outline
+                <span>Complex & General · Slow and Fast Earthquakes Focus Group</span>
+            </a>
+    
+            <a class="link-card"
+                href="Secondary-Weakening-in-dm-Scale-Laboratory-Earthquakes-Frictional-Origin-or-Rigid-Body-Artifact.html">
+                Secondary Weakening in dm-Scale Laboratory Earthquakes:
+                Frictional Origin or Rigid-Body Artifact
+                <!-- <span>Poster Presentation · Laboratory Earthquake Physics</span> -->
+                <span>Presentation · Laboratory Earthquake Physics</span>
+            </a>
+    
+        </div>
+    
         <a class="back" href="Articles.html">← Back to Articles</a>
-
+    
     </div>
 
 </body>
